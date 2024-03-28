@@ -15,11 +15,14 @@
         }
         
         #showcase {
-            background-color: blue;
-            height: 150px;
-            border: 5px solid rebeccapurple;
+            background: url(download.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            image-rendering: auto;
+            height: 500px;
+            width: 100%;
             padding: 10px;
-            text-align: center;
         }
         
         #how-it {
@@ -117,6 +120,16 @@
         #how-it p {
             font-size: larger;
         }
+        
+        .header-item--login a {
+            background-color: blue;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        
+        .header-item--login a:active {
+            background-color: blue;
+        }
     </style>
 
 </head>
@@ -128,7 +141,7 @@
             </li>
             <li class="header-item"><a href="#" id="color">Hakkımızda</a>
             </li>
-            <li class="header-item"><a href="#" id="color">İletişim</a>
+            <li class="header-item header-item--login"><a href="#" id="color">İletişim</a>
             </li>
         </ul>
     </nav>
